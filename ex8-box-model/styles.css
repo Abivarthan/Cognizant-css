@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #fafafa;
+}
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+.eventCard {
+    background-color: #fff;
+    
+    padding: 20px; 
+    margin: 20px 0; 
+    border: 2px solid #3498db; 
+    border-radius: 5px;
+}
+
+
+.registration-form {
+    margin: 20px 0;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ccc;
+}
+
+.form-input {
+    display: block;
+    width: 90%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+
+.form-input:focus {
+    outline: 3px solid #f1c40f;
+    
+    
+}
+
+
+.test-box {
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px dashed #333;
+    background-color: #e0e0e0;
+}
+
+.hidden-visibility {
+    
+    visibility: hidden; 
+}
+
+.none-display {
+    
+    display: none; 
+}
+
+.normal-box {
+    background-color: #d4edda;
+}

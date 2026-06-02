@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.instructions {
+    background-color: white;
+    padding: 20px;
+    border-left: 5px solid #2ecc71;
+    margin-bottom: 40px;
+}
+
+.instructions ol {
+    margin-top: 15px;
+    line-height: 1.6;
+}
+
+
+.broken-layout {
+    
+    width: 800px; 
+    
+    background-color: #e74c3c;
+    color: white;
+    
+    
+    padding: 50px; 
+    
+    
+}
+
+.broken-layout h3 {
+    margin-top: 0;
+}

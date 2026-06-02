@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex 8: Box Model & Layout Control</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <main>
+        <h2>Event Cards (Box Model)</h2>
+        <div class="eventCard">
+            <h3>Music Festival</h3>
+            <p>Live bands all weekend.</p>
+        </div>
+        
+        <div class="eventCard">
+            <h3>Tech Meetup</h3>
+            <p>Networking and talks on modern web development.</p>
+        </div>
+
+        <hr>
+
+        <h2>Registration Form (Outline)</h2>
+        <form class="registration-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" class="form-input">
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" class="form-input">
+            
+            <button type="button">Submit</button>
+        </form>
+
+        <hr>
+
+        <h2>Display vs. Visibility</h2>
+        <div class="test-box hidden-visibility">This box has visibility: hidden. It takes up space but is invisible.</div>
+        <div class="test-box none-display">This box has display: none. It doesn't take up any space.</div>
+        <div class="test-box normal-box">This is a normal box. Notice how the space above it behaves.</div>
+    </main>
+
+</body>
+</html>
